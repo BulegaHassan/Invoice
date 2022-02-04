@@ -14,7 +14,7 @@ const calculateDiscount = (customer, subtotal) => {
             }
         case "loyal":
             return .3;
-        case "honored":
+        case "dist":
             return (subtotal < 500) ? .4 : .5;
     }
 };
