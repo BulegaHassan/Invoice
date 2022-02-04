@@ -15,6 +15,10 @@ h1 {
 div, hr {
     margin-bottom: 1em;
 }
+p {
+    text-decoration: underline;
+    font-weight: bold;
+}
 label {
     display: inline-block;
     width: 8em;
@@ -23,3 +27,7 @@ input, select {
     margin-left: 1em;
     margin-right: 0.5em;
 }
+input[type=text] {
+    border: 1px solid blue;
+}
+
